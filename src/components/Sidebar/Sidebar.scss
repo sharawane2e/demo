@@ -1,0 +1,20 @@
+nav{
+
+    padding: 0px;
+
+    ul{
+        margin: 20px 0px 0px 0px;
+        padding: 0px;
+        li{
+            display: flex;
+            padding: 10px;
+            list-style: none;
+            color: #fff;
+            margin: 0px 0px 5px 0px;
+            a:hover{
+                text-decoration: none;
+                opacity: .9;
+            }
+        }
+    }
+}

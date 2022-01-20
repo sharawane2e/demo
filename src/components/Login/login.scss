@@ -1,0 +1,53 @@
+.loginBlock {
+    width: 450px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    input[type="text"], input[type="password"] {
+      border: 0;
+      background: #3b3f62;
+      display: block;
+      margin: 25px auto;
+      text-align: center;
+      padding: 12px 10px;
+      width: 250px;
+      outline: none;
+      color: white;
+      border-radius: 25px;
+      transition: 0.25s;
+      
+      &:focus {
+        width: 360px;
+        border-color: #1abc9c;
+      }
+    }
+    
+    input[type="submit"] {
+      border: 0;
+      background: #fd636b;
+      display: block;
+      margin: 25px auto;
+      text-align: center;
+      padding: 12px 10px;
+      width: 250px;
+      outline: none;
+      color: white;
+      border-radius: 25px;
+      transition: 0.25s;
+      cursor: pointer;
+      background-color: #fd636b;
+      
+      &:hover {
+        background-color: #e2535b;
+      }
+      &:focus {
+        width: 360px;
+        border-color: #e2535b;
+      }
+    }
+    
+  }
